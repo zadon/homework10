@@ -13,6 +13,8 @@ def input_value():
             return True
         elif a == "2":
             return False
+        else:
+            print("Введите 1 или 2")
 
 
 def rand(x: int, y: int):
